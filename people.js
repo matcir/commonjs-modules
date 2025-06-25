@@ -1,12 +1,16 @@
 const myNames = require("./names");
 const myHobbies = require("./hobbies");
 
-console.log(myHobbies)
-console.log(myNames);
+const nameInfo = myNames("Matteo", "Cirillo");
+const myHobby = myHobbies("Music", "Gaming", "Sports");
 
 function myPersonInfo() {
     const thisPerson = {
-        fullName: 
-        hobbies:
+        fullName: fullName.firstName + fullName.lastName,
+        hobby: myHobby
     }
+
+    return thisPerson;
 }
+
+console.log(myPersonInfo);
