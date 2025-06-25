@@ -13,4 +13,4 @@ function myPersonInfo() {
     return thisPerson;
 }
 
-console.log(myPersonInfo);
+console.log(myPersonInfo());
